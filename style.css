@@ -4,8 +4,14 @@
 }
 
 body {
-    background-color: #548687;
+    background-color: rgb(3, 58, 100);
     text-align: center;
+}
+
+h1{
+    color: gold;
+    font-size: 8vmin;
+    font-family: cursive;
 }
 
 .container {
@@ -29,34 +35,35 @@ body {
     height: 18vmin;
     width: 18vmin;
     border-radius: 1rem;
-    border: none;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    border: 2px solid gold;
+    /* box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3); */
     font-size: 8vmin;
-    color: #b0413e;
-    background-color: #ffffc7;
+    color: gold;
+    background-color: rgb(2, 2, 41);
 }
 
 #reset-btn {
     padding: 1rem;
     font-size: 1.25rem;
-    background-color: #191913;
-    color: #fff;
+    background-color: rgb(2, 2, 41);
+    color: gold;
     border-radius: 1rem;
-    border: none;
+    border: 2px solid gold;
 }
 
 #new-btn{
     padding: 1rem;
     font-size: 1.25rem;
-    background-color: #191913;
-    color: #fff;
+    background-color: rgb(2, 2, 41);
+    color: gold;
     border-radius: 1rem;
-    border: none;
+    border: 2px solid gold;
 }
 
 #msg{
-    color: #ffffc7;
-    font-size: 5vmin;
+    color: gold;
+    font-size: 8vmin;
+    font-family: cursive;
 }
 
 .msg-container{
@@ -82,17 +89,18 @@ body {
 }
 
 #draw{
-    color: #ffffc7;
-    font-size: 5vmin;
+    color: gold;
+    font-size: 8vmin;
+    font-family: cursive;
 }
 
 #newDraw-btn{
     padding: 1rem;
     font-size: 1.25rem;
-    background-color: #191913;
-    color: #fff;
+    background-color: rgb(2, 2, 41);
+    color: gold;
     border-radius: 1rem;
-    border: none;
+    border: 2px solid gold;
 }
 
 .drawhide{
